@@ -1,0 +1,99 @@
+.container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+textarea {
+  width: 98%;
+  height: 80px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 14px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  min-height: 80px;
+}
+
+.token {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  height: 100%;
+}
+
+.token-0 {
+  background: #ffadad; /* pastel red */
+  color: #3a3a3a;
+}
+.token-1 {
+  background: #ffd6a5; /* pastel orange */
+  color: #3a3a3a;
+}
+.token-2 {
+  background: #fdffb6; /* pastel yellow */
+  color: #3a3a3a;
+}
+.token-3 {
+  background: #caffbf; /* pastel green */
+  color: #3a3a3a;
+}
+.token-4 {
+  background: #9bf6ff; /* pastel cyan */
+  color: #3a3a3a;
+}
+.token-5 {
+  background: #a0c4ff; /* pastel blue */
+  color: #3a3a3a;
+}
+.token-6 {
+  background: #bdb2ff; /* pastel purple */
+  color: #3a3a3a;
+}
+.token-7 {
+  background: #ffc6ff; /* pastel pink */
+  color: #3a3a3a;
+}
+.token-8 {
+  background: #dca9f8; /* off white */
+  color: #3a3a3a;
+  border: 1px solid #ccc;
+}
+.token-9 {
+  background: #baefce; /* pastel mint */
+  color: #3a3a3a;
+}
+
+.token-ids-container {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.token-ids {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 14px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.stat {
+  display: flex;
+  gap: 10px;
+}
