@@ -2,7 +2,7 @@
 
 A simple React component to visualize token IDs and their decoded values using a Byte Pair Encoding (BPE) tokenizer.
 
-- Demo Url : [Preview](https://anuragdev-phi.vercel.app/)
+- Demo Url : [Preview](https://token-visualizer-one.vercel.app/)
 
 ---
 
