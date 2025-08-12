@@ -27,7 +27,8 @@ export default function TokenVisualizer({ tokenizer }) {
           placeholder="Enter text to tokenize..."
           value={input}
           onChange={handleChange}
-          className="w-full h-32 p-6 border-2 border-slate-200 rounded-xl resize-none font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-300 bg-white text-slate-700 shadow-sm transition-all duration-200"
+          className="w-full p-6 border-2 border-slate-200 rounded-xl font-mono text-lg focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-300 bg-white text-slate-700 shadow-sm transition-all duration-200"
+          rows={6}
         />
       </div>
 
@@ -60,10 +61,10 @@ export default function TokenVisualizer({ tokenizer }) {
       </div>
       <div className="space-y-4">
         <h2 className="text-2xl font-bold text-slate-700">Token IDs</h2>
-        <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-          <code className="text-slate-600 font-mono text-lg">
+        <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 w-full">
+          <span className="text-slate-600 font-mono text-lg break-words">
             {JSON.stringify(tokens)}
-          </code>
+          </span>
         </div>
       </div>
     </div>
